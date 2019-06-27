@@ -1,0 +1,10 @@
+{
+    "name": "@waf-component/promise-grid",
+    "version": "1.0.0",
+    "author": "guanyj",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+
+    }
+}

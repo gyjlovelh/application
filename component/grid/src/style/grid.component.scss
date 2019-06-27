@@ -1,0 +1,79 @@
+/** grid 组件样式 */
+
+* {
+  // 字体
+  font-family: STHeiti, STHupo, Yapi SC, Microsoft JhengHei, SimHei;
+}
+
+$--color-primary: #f3991c;
+/** font color */
+$--color-text-primary: #444444;
+$--color-text-regular: #999999;
+$--color-text-placeholder: #e6e6e6;
+
+/** functional color */
+$--color-success: #4dbd73;
+$--color-danger: #f5222d;
+$--color-info: #1890ff;
+
+
+/** table */
+$--table-border-color: #f3f3f3;
+$--table-font-color: #999999;
+$--table-header-background-color: #f1f1f1;
+$--table-header-font-color: #444444;
+
+/** 分页 */
+$--pagination-font-size: 13px;
+$--pagination-font-color: #444444;
+
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
+
+
+.el-table {
+  th {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 14px;
+  }
+}
+
+.el-message-box {
+  .el-icon-error, .el-icon-success, .el-icon-info {
+    font-size: 54px !important;
+  }
+
+  .el-button {
+    background: #fbfbfb;
+    color: #737373;
+    border-color: #e6e6e6;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    &:hover {
+      background: #fbfbfb;
+      color: #737373;
+
+    }
+  }
+}
+
+.waf-message-box-title {
+  margin: 0;
+  padding: 5px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.waf-message-box-message {
+  font-size: 13px;
+  color: #666;
+}
+
+.waf-message-box-confirm-button {
+  background-color: red;
+}
+
